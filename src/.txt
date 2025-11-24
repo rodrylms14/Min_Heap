@@ -1,0 +1,9 @@
+El algoritmo de Dijkstra se basa en encontrar el camino mas corto desde un nodo inicial hacia todos
+losd demas nodos de un grafo. Para optimizar la seleccion del nodo con distancia minima , se
+utiliza el MinHeap, que funciona como uuna cola de prioridad.
+Gracias a esta estructura las operaciones fundamentales tales como insertar un nuevo nodo y extraer
+el nodo con la menor distancia se realizan en tiempo 0(logo V) 
+
+Esto reduce la complejidad total del algoritmo, lo que represetna una mejora significativa
+para grafos grandes. Es por esto que MinHeap son una parte fundamental del algoritmo de Dijkstra para
+implementaciones eficientes.
